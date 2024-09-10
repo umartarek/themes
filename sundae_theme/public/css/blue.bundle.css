@@ -1,0 +1,268 @@
+/* Global */
+[data-theme=blue]:root {
+    --main-color: #004080; /* Solid Blue */
+    --second-color: #0080ff; /* Lighter Blue */
+    --third-color: #0059b3; /* Darker Blue */
+    --widget-bg: #f1f5f9; /* Light background */
+}
+
+[data-theme=blue] {
+    --primary: var(--main-color);
+    --dt-primary-color: var(--main-color);
+    --blue-avatar-bg: var(--main-color);
+    --blue-avatar-color: var(--main-color);
+    --blue: var(--main-color);
+}
+
+[data-theme=blue] .page-container,
+[data-theme=blue] .layout-main-section {
+    background-color: var(--widget-bg);
+}
+
+[data-theme=blue] ul li a:hover {
+    background-color: var(--second-color);
+    color: #fff;
+}
+
+/* Main */
+[data-theme=blue] body {
+    font-size: 14px;
+    background-color: #f3f6f9;
+}
+
+[data-theme=blue] a {
+    color: #666;
+    font-weight: 500;
+}
+
+[data-theme=blue] .small, small {
+    font-size: 95%;
+}
+
+[data-theme=blue] .h6.uppercase, h6.uppercase {
+    font-weight: 600;
+    font-size: 11.5px;
+}
+
+/* Navigation Bar */
+[data-theme=blue] .standard-sidebar-item.selected {
+    background-color: var(--main-color);
+}
+
+[data-theme=blue] .standard-sidebar-item.selected a {
+    color: #fff;
+}
+
+[data-theme=blue] .standard-sidebar-item.selected a svg {
+    fill: #fff;
+}
+
+[data-theme=blue] .standard-sidebar-item:hover {
+    background-color: var(--second-color);
+}
+
+[data-theme=blue] .standard-sidebar-item:hover a,
+[data-theme=blue] .standard-sidebar-item:hover svg {
+    color: #fff;
+    fill: #fff;
+}
+
+[data-theme=blue] .navbar {
+    background-color: var(--main-color) !important;
+    border: none !important;
+}
+
+[data-theme=blue] .navbar-nav > li > a {
+    color: #fff !important;
+}
+
+[data-theme=blue] .navbar-nav > li > a:hover {
+    color: #ddd !important;
+}
+
+[data-theme=blue] .navbar-brand:hover {
+    color: #ddd !important;
+}
+
+/* Widgets */
+[data-theme=blue] .widget {
+    background-color: var(--widget-bg);
+    border: none;
+    box-shadow: 0px 3px 12px 0px var(--widget-bg), 0 3px 3px -2px #00408014;
+}
+
+[data-theme=blue] .widget.shortcut-widget-box .widget-head .widget-title i {
+    color: var(--third-color);
+}
+
+[data-theme=blue] .widget.shortcut-widget-box .widget-head .widget-title:hover span {
+    color: var(--main-color);
+}
+
+[data-theme=blue] .widget-body .link-item:hover {
+    color: #fff;
+    background: var(--third-color);
+}
+
+/* Sidebar */
+[data-theme=blue] .desk-sidebar .desk-sidebar-item {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--widget-bg);
+}
+
+[data-theme=blue] .layout-side-section {
+    font-size: 14px;
+}
+
+[data-theme=blue] .uppercase {
+    color: var(--third-color);
+}
+
+/* Dropdowns */
+[data-theme=blue] .dropdown-menu > li > a {
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
+}
+
+[data-theme=blue] .awesomplete > ul > li[aria-selected=true] {
+    background-color: transparent;
+}
+
+[data-theme=blue] .awesomplete > ul > li:hover {
+    background-color: var(--main-color);
+}
+
+[data-theme=blue] .awesomplete > ul > li:hover a {
+    color: #fff;
+}
+
+/* Page Heading */
+[data-theme=blue] .page-head {
+    border-bottom: none !important;
+    box-shadow: 0 1px 10px 1px rgba(115, 108, 203, 0.1);
+}
+
+[data-theme=blue] .page-title .title-text {
+    color: var(--third-color);
+    font-size: 22px;
+}
+
+[data-theme=blue] .widget .widget-head .widget-title,
+[data-theme=blue] .section-head,
+[data-theme=blue] .comment-input-header {
+    font-size: 14px;
+    color: var(--third-color);
+}
+
+/*Main Section */
+[data-theme=blue] .list-row-head {
+    background-color: #f3f6f9;
+    border-bottom: 1px solid #e4e4e4 !important;
+}
+
+/* Buttons */
+[data-theme=blue] .btn-primary {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+[data-theme=blue] .control-label, .grid-heading-row {
+    font-size: 13px;
+}
+
+[data-theme=blue] .btn-default:hover,
+[data-theme=blue] .btn-default:focus, .btn-default.focus,
+[data-theme=blue] .btn-default:active, .btn-default.active,
+[data-theme=blue] .open > .dropdown-toggle.btn-default {
+    background-color: var(--third-color) !important;
+    color: #fff !important;
+}
+
+[data-theme=blue] .btn-default:hover svg {
+    stroke: #fff !important;
+    fill: #fff !important;
+    color: #fff !important;
+}
+
+[data-theme=blue] .btn-primary:hover,
+[data-theme=blue] .btn-primary:focus, .btn-primary.focus,
+[data-theme=blue] .btn-primary:active, .btn-primary.active,
+[data-theme=blue] .open > .dropdown-toggle.btn-primary {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+[data-theme=blue] .btn-secondary,
+[data-theme=blue] .btn-secondary:focus, .btn-secondary.focus,
+[data-theme=blue] .btn-secondary:active, .btn-secondary.active,
+[data-theme=blue] .open > .dropdown-toggle.btn-secondary {
+    background-color: var(--third-color);
+    color: #fff;
+}
+
+[data-theme=blue] .btn-secondary:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+/* Other Components */
+[data-theme=blue] input[type=checkbox]:checked:before {
+    color: var(--third-color);
+}
+
+[data-theme=blue] input[type=checkbox]:checked {
+    background: var(--main-color);
+}
+
+[data-theme=blue] .frappe-control .ql-editor:not(.read-mode) {
+    background: var(--widget-bg);
+}
+
+[data-theme=blue] .input-with-feedback,
+[data-theme=blue] .like-disabled-input {
+    background-color: #e8eafcad;
+}
+
+[data-theme=blue] .document-link-badge span {
+    background-color: var(--main-color) !important;
+    color: #fff;
+}
+
+[data-theme=blue] .document-link-badge {
+    background-color: var(--widget-bg) !important;
+}
+
+[data-theme=blue] .document-link button {
+    background: var(--third-color) !important;
+    color: #fff !important;
+}
+
+[data-theme=blue] .document-link button svg {
+    fill: white;
+    stroke: white;
+}
+
+[data-theme=blue] .indicator-pill.gray,
+[data-theme=blue] .indicator-pill-right.gray,
+[data-theme=blue] .indicator-pill-round.gray {
+    background: var(--third-color);
+    color: #fff;
+}
+
+[data-theme=blue] .indicator-pill.green,
+[data-theme=blue] .indicator-pill-right.green,
+[data-theme=blue] .indicator-pill-round.green {
+    color: var(--main-color);
+}
+
+[data-theme=blue] .notifications-icon svg {
+    stroke: #fff;
+    fill: #fff;
+}
+
+[data-theme=blue] #page-Workspaces .page-head {
+    background: var(--widget-bg);
+}
+
